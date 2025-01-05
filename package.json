@@ -1,15 +1,16 @@
 {
   "name": "linguareef-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Utility functions for the Linguareef project",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "watch": "tsc --watch",
+    "test": "echo \"No test specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
   }
 }
