@@ -1,6 +1,6 @@
 {
   "name": "linguareef-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility functions for the Linguareef project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,7 @@
     "build": "tsc",
     "start": "node ./dist/index.js",
     "watch": "tsc --watch",
+    "prepare": "npm run build",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {},
