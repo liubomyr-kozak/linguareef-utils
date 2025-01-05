@@ -1,2 +1,2 @@
-export * from './BasicTypes';
-export * from './ApiTypes';
+export * from './UserWord.types';
+export * from './ApiTypes.types';
