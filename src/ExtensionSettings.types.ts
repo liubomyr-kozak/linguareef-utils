@@ -23,7 +23,7 @@ export interface ISettings {
     timeZone: number;
 }
 
-export interface AppConfig {
+export interface IExtensionSettings {
     lastSync: string;
     settings: ISettings;
     pageLanguage: string;
