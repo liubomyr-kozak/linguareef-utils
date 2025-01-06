@@ -1,8 +1,8 @@
-import {UserWord} from "./UserWord.types";
+import {IUserWord} from "./UserWord.types";
 import {AppConfig} from "./ExtensionSettings.types";
 
-export type UserVocabulary = {
-    list: UserWord[];
+export type UserVocabularyDTO = {
+    list: IUserWord[];
 }
 
-export type UserExtensionSettings = AppConfig
+export type UserExtensionSettingsDTO = AppConfig

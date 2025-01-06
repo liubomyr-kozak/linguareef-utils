@@ -1,30 +1,30 @@
-export interface Position {
+export interface ILauncherPosition {
     top: string;
     bottom: string;
     offsetTop: number;
 }
 
-export interface Launcher {
-    position: Position;
+export interface ILauncher {
+    position: ILauncherPosition;
 }
 
-export interface LanguageOption {
+export interface ILanguageOption {
     value: string;
     label: string;
 }
 
-export interface Settings {
+export interface ISettings {
     wordInteractType: string;
     appIsActive: boolean;
-    launcher: Launcher;
-    langLocal: LanguageOption;
-    langLearning: LanguageOption;
-    languageInterface: LanguageOption;
+    launcher: ILauncher;
+    langLocal: ILanguageOption;
+    langLearning: ILanguageOption;
+    languageInterface: ILanguageOption;
     timeZone: number;
 }
 
 export interface AppConfig {
     lastSync: string;
-    settings: Settings;
+    settings: ISettings;
     pageLanguage: string;
 }

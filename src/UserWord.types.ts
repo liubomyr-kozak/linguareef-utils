@@ -1,9 +1,9 @@
-export interface TranslationOther {
+export interface ITranslationOther {
     pos: string;
     meanings: string[];
 }
 
-export interface Training {
+export interface ITraining {
     opinion: number;
     nextRepetitionDate: string;
     isTraining: boolean;
@@ -11,14 +11,14 @@ export interface Training {
     level: string;
 }
 
-export interface UserWord {
+export interface IUserWord {
     userWordId: number;
     isWordLearned: boolean;
     createdAt: string;
-    translationsOther: TranslationOther[];
+    translationsOther: ITranslationOther[];
     word: string;
     wordId: number;
     translation: string;
     translationId: number;
-    training: Training;
+    training: ITraining;
 }

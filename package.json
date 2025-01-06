@@ -1,6 +1,6 @@
 {
   "name": "linguareef-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility functions for the Linguareef project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
