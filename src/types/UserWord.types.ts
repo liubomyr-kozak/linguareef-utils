@@ -1,15 +1,5 @@
-export interface ITranslationOther {
-    pos: string;
-    meanings: string[];
-}
-
-export interface ITraining {
-    opinion: number;
-    nextRepetitionDate: string;
-    isTraining: boolean;
-    lastAttemptQuality: number;
-    level: string;
-}
+import {ITranslationOther} from "./WordTranslation.types";
+import {ITraining} from "./WordTraining.types";
 
 export interface IUserWord {
     userWordId: number;
