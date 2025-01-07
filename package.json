@@ -10,7 +10,6 @@
     "watch": "tsc --watch",
     "prepare": "npm run build",
     "prepack": "yarn build",
-    "postinstall": "yarn build",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {},
