@@ -32,3 +32,8 @@ export enum ETranslateTypeNum {
     MIXED_TYPES = 3,
     DEFAULT = 0,
 }
+
+export enum EWordInteractType2 {
+    CLICK = 1,
+    HOVER = 2,
+}
