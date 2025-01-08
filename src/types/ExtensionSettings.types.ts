@@ -1,4 +1,4 @@
-import {EWordInteractType, EWordPopupType, TRANSLATE_TYPE} from "../enums/SettingsEnum";
+import {ETranslateType, EWordInteractType, EWordPopupType} from "../enums/SettingsEnum";
 
 export interface ILauncherPosition {
     top: string;
@@ -17,7 +17,7 @@ export interface ILanguageOption {
 
 export interface ISettings {
     wordInteractType?: EWordInteractType;
-    wordTranslateType?: TRANSLATE_TYPE;
+    wordTranslateType?: ETranslateType;
     wordPopupType?: EWordPopupType;
     appIsActive: boolean;
     launcher: ILauncher;

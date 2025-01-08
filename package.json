@@ -9,10 +9,16 @@
     "start": "node ./dist/index.js",
     "watch": "tsc --watch",
     "postinstall": "yarn build",
-    "test": "echo \"No test specified\" && exit 0"
+    "check-types": "tsc --noemit"
   },
-  "dependencies": {},
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "typescript": "^5.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn check-types"
+    }
   }
 }
