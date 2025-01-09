@@ -23,3 +23,9 @@ export type UserSelectedVocabsWordsDTO = IUserVocabWord[]
 
 // [PUT] /api/vocabulary/user/word
 export type UpdateUserWordDTO = IUserWord
+
+// [PUT] /api/vocabulary/user/word
+export type UpdateUserWordResultDTO = {
+    "userWordId": IUserWord['userWordId'],
+    "isWordLearned": IUserWord['isWordLearned'],
+}
