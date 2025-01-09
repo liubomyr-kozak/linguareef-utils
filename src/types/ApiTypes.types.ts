@@ -3,6 +3,7 @@ import {IExtensionSettings} from "./ExtensionSettings.types";
 import {IUserVocabSelection} from "./UserVocab.types";
 import {IUserVocabWord} from "./UserVocabsWord.types";
 
+// /api/vocabulary/user?langPair=en_uk
 export type UserVocabularyDTO = {
     list: IUserWord[];
 }
@@ -17,8 +18,8 @@ export type UserVocabSelectionDTO = IUserVocabSelection[]
 export type UserSelectedVocabsWordsDTO = IUserVocabWord[]
 
 // /api/vocabulary/libraries/vocabs/current-user?langPair=en_uk
-// export type UserVocabularyLibraryExtensionDTO = {
-//
-// }
 
+// /api/vocabulary/libraries/vocabs/21/select
 
+// [PUT] /api/vocabulary/user/word
+export type UpdateUserWordDTO = IUserWord
