@@ -2,6 +2,7 @@ import {IUserWord} from "./UserWord.types";
 import {IExtensionSettings} from "./ExtensionSettings.types";
 import {IUserVocabSelection} from "./UserVocab.types";
 import {IUserVocabWord} from "./UserVocabsWord.types";
+import {IWordTranslation} from "./WordTranslation.types";
 
 // /api/vocabulary/user?langPair=en_uk
 export type UserVocabularyDTO = {
@@ -29,3 +30,6 @@ export type UpdateUserWordResultDTO = {
     "userWordId": IUserWord['userWordId'],
     "isWordLearned": IUserWord['isWordLearned'],
 }
+
+// [GET] /api/vocabulary/user/word?word=free&langPair=en_uk
+export type WordTranslationDTO = IWordTranslation

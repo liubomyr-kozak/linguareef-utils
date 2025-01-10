@@ -1,4 +1,4 @@
-import {ETranslateType, EWordInteractType, EWordPopupType} from "../enums/SettingsEnum";
+import {ETranslateType, EWordInteractType, EWordPopupType} from "../enums";
 
 export interface ILauncherPosition {
     top: string;
