@@ -3,6 +3,8 @@ import {ETranslateType, EWordInteractType, EWordPopupType} from "../enums";
 export interface ILauncherPosition {
     top: string;
     bottom: string;
+    left: string;
+    right: string;
     offsetTop: number;
 }
 
